@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
@@ -19,6 +19,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.QuizGame", "LunarDoggo.QuizGame\LunarDoggo.QuizGame.csproj", "{B95D0A2F-14F5-482A-8640-56B84AB570D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.TicTacToe", "LunarDoggo.TicTacToe\LunarDoggo.TicTacToe.csproj", "{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.DoTick", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.DoTick\LunarDoggo.QuizGame.DoTick.csproj", "{652FA569-69D2-465F-B79F-377AD1839293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.PrintMethod", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.PrintMethod\LunarDoggo.QuizGame.PrintMethod.csproj", "{B10545E3-B538-41C9-AF80-D49379BB1BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.MoveToNextQuestion", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.MoveToNextQuestion\LunarDoggo.QuizGame.MoveToNextQuestion.csproj", "{DF84F87D-0574-4146-B126-D7EDB83827CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.HighlightNextAnswer", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.HighlightNextAnswer\LunarDoggo.QuizGame.HighlightNextAnswer.csproj", "{94AA2B01-716A-4952-A123-4492C07FD272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.HighlightPreviousAnswer", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.HighlightPreviousAnswer\LunarDoggo.QuizGame.HighlightPreviousAnswer.csproj", "{711444DA-22F4-4485-8222-2ADE067941BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.QuizGame.AnswerQuestion", "LunarDoggo.QuizGame.Test\LunarDoggo.QuizGame.AnswerQuestion\LunarDoggo.QuizGame.AnswerQuestion.csproj", "{D76C75D8-2728-4A8F-96A8-3C739EF42AB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +58,30 @@ Global
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652FA569-69D2-465F-B79F-377AD1839293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652FA569-69D2-465F-B79F-377AD1839293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652FA569-69D2-465F-B79F-377AD1839293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652FA569-69D2-465F-B79F-377AD1839293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10545E3-B538-41C9-AF80-D49379BB1BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10545E3-B538-41C9-AF80-D49379BB1BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10545E3-B538-41C9-AF80-D49379BB1BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10545E3-B538-41C9-AF80-D49379BB1BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF84F87D-0574-4146-B126-D7EDB83827CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF84F87D-0574-4146-B126-D7EDB83827CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF84F87D-0574-4146-B126-D7EDB83827CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF84F87D-0574-4146-B126-D7EDB83827CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AA2B01-716A-4952-A123-4492C07FD272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AA2B01-716A-4952-A123-4492C07FD272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AA2B01-716A-4952-A123-4492C07FD272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AA2B01-716A-4952-A123-4492C07FD272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711444DA-22F4-4485-8222-2ADE067941BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711444DA-22F4-4485-8222-2ADE067941BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711444DA-22F4-4485-8222-2ADE067941BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711444DA-22F4-4485-8222-2ADE067941BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76C75D8-2728-4A8F-96A8-3C739EF42AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76C75D8-2728-4A8F-96A8-3C739EF42AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76C75D8-2728-4A8F-96A8-3C739EF42AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76C75D8-2728-4A8F-96A8-3C739EF42AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
